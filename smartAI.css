@@ -1,35 +1,35 @@
 @font-face {
   font-family: "Raleway";
-  src: url(Resources/Raleway/static/Raleway-Medium.ttf);
+  src: url(Resources/Raleway/Raleway-Medium.ttf);
 }
 @font-face {
   font-family: "Raleway Two";
-  src: url(Resources/Raleway/static/Raleway-LightItalic.ttf);
+  src: url(Resources/Raleway/Raleway-LightItalic.ttf);
 }
 
 @font-face {
   font-family: "Raleway Three";
-  src: url(Resources/Raleway/static/Raleway-Regular.ttf);
+  src: url(Resources/Raleway/Raleway-Regular.ttf);
 }
 
 @font-face {
   font-family: "Raleway Four";
-  src: url(Resources/Raleway/static/Raleway-Bold.ttf);
+  src: url(Resources/Raleway/Raleway-Bold.ttf);
 }
 
 @font-face {
   font-family: "Raleway Five";
-  src: url(Resources/Raleway/static/Raleway-Light.ttf);
+  src: url(Resources/Raleway/Raleway-Light.ttf);
 }
 
 @font-face {
   font-family: "Raleway Six";
-  src: url(Resources/Raleway/static/Raleway-SemiBoldItalic.ttf);
+  src: url(Resources/Raleway/Raleway-SemiBoldItalic.ttf);
 }
 
 @font-face {
   font-family: "Raleway Seven";
-  src: url(Resources/Raleway/static/Raleway-SemiBold.ttf);
+  src: url(Resources/Raleway/Raleway-SemiBold.ttf);
 }
 
 * {
