@@ -1,0 +1,183 @@
+@font-face {
+  font-family: "Raleway";
+  src: url(Resources/Raleway/static/Raleway-Medium.ttf);
+}
+@font-face {
+  font-family: "Raleway Two";
+  src: url(Resources/Raleway/static/Raleway-LightItalic.ttf);
+}
+
+@font-face {
+  font-family: "Raleway Three";
+  src: url(Resources/Raleway/static/Raleway-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Raleway Four";
+  src: url(Resources/Raleway/static/Raleway-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Raleway Five";
+  src: url(Resources/Raleway/static/Raleway-Light.ttf);
+}
+
+@font-face {
+  font-family: "Raleway Six";
+  src: url(Resources/Raleway/static/Raleway-SemiBoldItalic.ttf);
+}
+
+@font-face {
+  font-family: "Raleway Seven";
+  src: url(Resources/Raleway/static/Raleway-SemiBold.ttf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background-color: rgb(255, 240, 245);
+}
+
+.navbar-two {
+  background-color: rgb(252, 220, 231);
+  font-family: "Raleway Four";
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.navdiv-two {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li a {
+  color: rgb(219, 112, 147);
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 25px;
+  font-family: "Raleway Seven";
+  text-decoration: none;
+}
+
+li:hover {
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+li a:hover {
+  color: rgb(214, 82, 126);
+  cursor: pointer;
+}
+
+.text-image-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.text-one {
+  margin-right: 20px;
+  flex: 1;
+  width: 50%;
+  font-size: 1.3em;
+}
+
+.subhead-one {
+  font-family: "Raleway Four";
+  color: rgb(106, 38, 78);
+}
+.top-img {
+  width: 60%;
+  height: 100%;
+  border-radius: 8px;
+  margin: 30px;
+}
+
+.top-img iframe {
+  width: 91%;
+  height: 350px;
+}
+
+.small-text-one {
+  font-family: "Raleway Three";
+  color: rgb(200, 94, 139);
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin-top: 100px;
+}
+
+.card {
+  width: 30%;
+  background-color: white;
+  border-radius: 40px;
+  overflow: hidden;
+  box-shadow: 2px 2.5px 15px rgba(72, 72, 72);
+  margin: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-content h3 {
+  font-size: 25px;
+  margin-bottom: 8px;
+  font-family: "Raleway Four";
+  color: black;
+}
+
+.card-content p {
+  color: black;
+  font-size: 15px;
+  line-height: 1.3;
+  font-family: "Raleway Five";
+  letter-spacing: 0.02cm;
+}
+
+.card-content .btn {
+  display: inline-block;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 16px;
+  color: rgb(255, 0, 255);
+  font-family: "Raleway Four";
+}
+
+.card-content .btn:hover {
+  cursor: pointer;
+  transform: scale (1.07);
+  transition: all 0.4s ease;
+}
+
+.card:hover {
+  background-color: rgb(250, 237, 246);
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: all 0.7s ease;
+}
+
+.card:hover .card-content h3 {
+  color: rgb(255, 0, 255);
+}
